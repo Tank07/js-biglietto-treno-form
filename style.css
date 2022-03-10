@@ -1,0 +1,14 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
