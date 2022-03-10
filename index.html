@@ -14,27 +14,50 @@
 
     <h1>Calcola il prezzo del tuo biglietto</h1>
 
-    <form action="">
+    
         <div class="flexbox">
             <div>
                 <h3>Nome e Cognome</h3>
-                <input type="text">
+                <input type="text" id="nome">
             </div>
     
             <div>
-                <h3>Nome e Cognome</h3>
-                <input type="text">
+                <h3>Km da percorrere</h3>
+                <input type="number" id="kmNumber">
             </div>
     
             <div>
-                <h3>Nome e Cognome</h3>
-                <input type="text">
+                <h3>Fascia d'età</h3>
+                <select id="eta" name="carlist" form="carform">
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over_65">Over 65</option>
+                    <option value="opel">Opel</option>
+                  </select>
             </div>  
-    </form>
+            <div>
+                <button>Genera</button>
+                <button>Annulla</button>
+            </div>
+        </div>
+
+        <!-- <input type="number" id="myNumber" value="2"> -->
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
     
-    </div>
+
+  <!-- Elemento cliccabile  -->
+  <div class="box">
+    <button id="bottoneShowHide">mostra / nascondi</button>
+    <p id="notaSelect" class="nota">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit
+    </p>
+  </div>
     
-    <div id="contenitore_prezzo" style="display: inline-block;"></div>
+    
+    
+<div id="contenitore_prezzo" style="display: inline-block;"></div>
 
 <script type="text/javascript" src="main.js"></script>
     
