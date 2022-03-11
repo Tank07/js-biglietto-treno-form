@@ -9,14 +9,8 @@ h1{
 
 .flexbox{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
 }
-
-.nota {
-    padding: 15px;
-    background-color: antiquewhite;
-    border-radius: 15px;
-  }
   
   .d-none{
     display: none;
